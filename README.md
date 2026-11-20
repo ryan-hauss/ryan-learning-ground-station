@@ -1,5 +1,5 @@
 # ryan-learning-ground-station
-Miniature model of a dual-axis satellite ground station positioner and SDR tracking controller.
+Miniature model of a dual-axis satellite ground station positioner and SDR tracking controller.  
 **Open Orbit RLGS (Ryan Learning Ground Station)** is a miniature, self-built satellite ground station project developed by Ryan H., a sophomore mechanical engineering student and Ground Station Network (GSN) Team Lead at Colorado State University (Fort Collins). Its primary purpose is to build hands-on leadership experience in positioner control, orbital tracking, and software-defined radio (SDR) signal decoding to mirror a full-scale ground station network.
 
 <img src="docs/images/GenR1 oct 17.png" alt="Gen R1 Gimbal" width="300">
