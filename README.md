@@ -25,3 +25,29 @@ Miniature model of a dual-axis satellite ground station positioner and SDR track
 
 
 3. **Live RF & Differential Tracking (Planned):** Transmitting low-power LoRa GPS telemetry from the handheld Heltec board to the RTL-SDR, decoding it via GNU Radio, and using differential GPS ("Poor Man's RTK") to actively track the mobile node.
+
+## 🗺️ Repository Structure
+
+```text
+open-orbit-rlgs/
+├── docs/                                # Documentation, BOM, & Engineering Logbooks
+│   ├── images/                          # Hardware photos & wiring diagrams
+│   ├── logbook/                         # Chronological session logs (YYYY-MM-DD-topic.md)
+│   └── BOM.md                           # Full hardware Bill of Materials (Gen R1, R2, & RF)
+│
+├── positioner/                          # Ground Station Pointing & Motion Subsystem
+│   ├── control-software/                # Host Python serial controller & pass runner
+│   │   └── rlgs_controller.py           # v1.2.1 — FSM controller, WASD jog & safety limits
+│   └── firmware/                        # Embedded microcontroller drivers
+│       ├── uno_halfstep/
+│       │   └── uno_halfstep.ino         # v1.0.0 — Arduino Uno 8-state half-step driver (Gen R1)
+│       └── kenpro_din/                  # (Planned) Gen 1.5 closed-loop 8-pin DIN interface
+│
+├── sdr/                                 # Ground Station RF Reception & Decoding[cite: 10]
+│   └── .gitkeep                         # (Planned) GNU Radio flowgraphs & ZMQ telemetry bridge
+│
+├── satellite/                           # Space Segment / Target Beacon Node[cite: 10]
+│   └── .gitkeep                         # (Planned) Heltec WiFi LoRa 32 V4 GPS beacon firmware
+│
+├── .gitignore
+└── README.md
