@@ -18,6 +18,8 @@ tags:
 
 **Objective:** Centralizing engineering logbooks and hardware BOM inside GitHub (`docs/`), evaluating ESP32 and laptop-less control upgrades, and auditing/rewiring the legacy Gen 1.5 Kenpro Az/El rotator.
 
+---
+
 #### **1. Version & Subsystem Scope Tracking**
 
 **GitHub Repository (`open-orbit-rlgs` / `docs/`):** **Expanded & Standardized**
@@ -36,6 +38,8 @@ tags:
 
 **Rotator Hardware (Gen 1.5 — Kenpro / Yaesu G-5400B):** **Audited & Rewiring Architecture Finalized**
 * Stripped out legacy DE-15 shared-ground harness and mapped clean 1-to-6 isolated wiring harnesses (`18 AWG` 4-wire + 2-wire bundles bridged via 6-pin Molex connectors).
+
+---
 
 #### **2. Technical Milestones Completed**
 
@@ -63,6 +67,8 @@ tags:
 
 * Verified that oily residue around the Kenpro housing seams is normal age-related base-oil separation from the internal lithium gear grease rather than a liquid oil leak.
 
+---
+
 #### **3. Architecture & Conceptual Foundations Established**
 
 **ESP32 & Laptop-Less Field Control (Gen R1 / R2):**
@@ -74,6 +80,8 @@ tags:
 * Mapped out future microcontroller integration via the rear 8-pin `EXTERNAL CONTROL` DIN jack using an isolated 4-channel relay/optocoupler module (`Left/CCW`, `Right/CW`, `Up`, `Down`) and `A0`/`A1` analog feedback reads.
 * Identified the rear 8-pin `EXTERNAL CONTROL` DIN jack (`Left/CCW`, `Right/CW`, `Up`, `Down`, plus `0–5V` Az/El analog outputs) as the future microcontroller interface via an isolated 4-channel relay/optocoupler module.
 * Verified ESP32 `3.3V` GPIO compatibility (`GPIO16–19`, `GPIO21–23`, `GPIO25`) and a 4-button `INPUT_PULLUP` field pendant design for Gen R1/R2.
+
+---
 
 #### **4. Immediate Next Steps (Next Session)**
 
