@@ -42,8 +42,7 @@ tags:
 * Unplugged `117V AC` mains and completely stripped the legacy wiring off both the rotator (`AZ` and `EL` blocks) and the rear control box (`AZIMUTH` and `ELEVATION` blocks), removing the undersized DE-15 splice, loose bare-clamped wires, and frayed braided/blue aluminized Mylar foil shielding.
 * Documented the original pre-teardown wire colors and terminal assignments before removal:
 
-> **[INSERT LEGACY "ORIGINAL" WIRING DIAGRAM / CHART HERE]**
-> *(e.g., `![Legacy Pre-Teardown Wiring Chart](../images/2026-11-21-legacy-wiring-chart.png)`)*
+<img src="../images/gen1_5-old-wiring-color-chart.jpg" alt="Original Gen 1.5 wiring color chart" width="400">
 
 **Hardware Anomalies Discovered During Teardown:**
 * **Missing Control Box `EL` Terminal 6 Screw:** Discovered the screw for **Terminal 6** on the rear `ELEVATION` barrier block was missing, and confirmed that the spare screws in **Terminals 7 and 8** are a different thread size. Temporarily borrowed the matching screw from unused `AZIMUTH` Terminal 6 to complete the Elevation block (need to source 2 replacement metric machine screws for `AZ` Terminal 6 and a spare).
@@ -70,8 +69,7 @@ tags:
 * **Two-Stage Fork Terminal Crimping:** Identified that the lab's `HSC8 6-4` square crimper is strictly for uninsulated bootlace ferrules, while the `MulWark` stripper/crimper's colored oval cavities are sized for larger insulated barrels (`16–14 AWG`). Achieved clean, tug-tested cold-weld crimps on unfolded `18 AWG` copper inside blue `16–14 AWG` fork terminals using a two-stage squeeze (shaping the sleeve in the top oval cavity, then dimpling the center barrel in the upper uninsulated cavities).
 * **Molex Orientation & Gauge Fit:** Assigned the **6-pin Female Molex receptacle** to the control box side so live `24V AC` motor drive contacts remain recessed inside insulated cavities when unplugged. Seated all 6 crimped `18 AWG` conductors into the `20 AWG`-rated Molex pins and locked them into the `3×2` housing.
 
-> **[INSERT PHOTO: Completed control box Elevation Harness & 6-Pin Female Molex Plug]**
-> *(e.g., `![Completed EL Control Box Harness](../images/2026-11-21-el-controlbox-molex.png)`)*
+<img src="../images/2026-11-21-el-controlbox-molex.jpg" alt="Completed EL Control Box Harness" width="400">
 
 #### **4. Immediate Next Steps (Next Session)**
 
