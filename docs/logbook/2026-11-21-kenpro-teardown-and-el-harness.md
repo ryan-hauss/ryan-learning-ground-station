@@ -18,6 +18,8 @@ tags:
 
 **Objective:** Stripping out the legacy shared-ground harness on the Gen 1.5 Kenpro G-5400B rotator and control box, documenting the original wiring layout, and fabricating the new isolated Elevation control box cable with fork terminals and a 6-pin Molex connector.
 
+---
+
 #### **1. Version & Subsystem Scope Tracking**
 
 **GitHub Repository (`open-orbit-rlgs` / `docs/`):** **Unchanged (Logbook Entry Prepared)**
@@ -36,6 +38,8 @@ tags:
 * Stripped all legacy wiring and screws from both rotator terminal blocks and both control box terminal blocks.
 * Built and terminated the 6-conductor **Elevation (`EL`) control box harness** (blue `16–14 AWG` fork terminals landed on Terminals `1–6` + 6-pin Female Molex receptacle seated).
 
+---
+
 #### **2. Legacy Harness Teardown & Hardware Findings**
 
 **Full Teardown & Pre-Removal Audit:**
@@ -50,6 +54,8 @@ tags:
 
 > **[INSERT PHOTO: Stripped Rotator & Control Box Terminal Blocks (Before/After)]**
 > *(e.g., `![Teardown Terminal Blocks](../images/2026-11-21-teardown-terminals.png)`)*
+
+---
 
 #### **3. Elevation Control Box Harness Fabrication & Tooling Notes**
 
@@ -70,6 +76,8 @@ tags:
 * **Molex Orientation & Gauge Fit:** Assigned the **6-pin Female Molex receptacle** to the control box side so live `24V AC` motor drive contacts remain recessed inside insulated cavities when unplugged. Seated all 6 crimped `18 AWG` conductors into the `20 AWG`-rated Molex pins and locked them into the `3×2` housing.
 
 <img src="../images/2026-11-21-el-controlbox-molex.jpg" alt="Completed EL Control Box Harness" width="400">
+
+---
 
 #### **4. Immediate Next Steps (Next Session)**
 
